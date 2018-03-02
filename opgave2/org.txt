@@ -1,0 +1,14 @@
+rust	Luca_Faliraki	Rhodos	200	1000.0	Griekenland
+rust	Maria_Luisa Baleares 210 340.0	Spanje
+sport	Sheraton	Parijs	400	4000.5	Frankrijk
+rust	Hilton	Brussel	205	2300.4	Belgie
+sport	Les_Calanques	Ajaccio	110 245.0	Frankrijk
+zon	Isabel_Family	Tenerife	500 23500.0	Spanje
+rust	Veronica	Paphos	80	123.0	Cyprus
+zon	Aqua_Sol	Paphos	120  234.5  Cyprus
+rust  Mediterranee	Porto	150  237.4	Portugal
+zon	Via_Mare	St_Cyprien	300	12367.8	Frankrijk
+sport La_Reserva	Marbella	1000	1234567  Spanje
+rust Jardin_Tropical  Tenerife 120 897.6 Spanje
+zon  Poseidon	Corinthe	350  123.5	Griekenland
+rust Plaza_Resort	Athene	330 8976.8	Griekenland

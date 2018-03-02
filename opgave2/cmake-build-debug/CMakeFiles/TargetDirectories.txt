@@ -1,0 +1,3 @@
+/home/stijn/School/Programeertechnieken/opgave2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/stijn/School/Programeertechnieken/opgave2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/stijn/School/Programeertechnieken/opgave2/cmake-build-debug/CMakeFiles/opgave2.dir

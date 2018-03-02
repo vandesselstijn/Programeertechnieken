@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/opgave2.dir/hotel.c.o CMakeFiles/opgave2.dir/txtdat.c.o CMakeFiles/opgave2.dir/lijst.c.o CMakeFiles/opgave2.dir/index.c.o CMakeFiles/opgave2.dir/zoek.c.o CMakeFiles/opgave2.dir/binzoek.c.o  -o opgave2 

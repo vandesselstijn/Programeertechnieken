@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/stijn/School/Programeertechnieken/opgave2/binzoek.c
+hotel.h
+/home/stijn/School/Programeertechnieken/opgave2/hotel.h
+
+/home/stijn/School/Programeertechnieken/opgave2/hotel.c
+hotel.h
+/home/stijn/School/Programeertechnieken/opgave2/hotel.h
+
+/home/stijn/School/Programeertechnieken/opgave2/hotel.h
+stdio.h
+-
+string.h
+-
+
+/home/stijn/School/Programeertechnieken/opgave2/index.c
+hotel.h
+/home/stijn/School/Programeertechnieken/opgave2/hotel.h
+
+/home/stijn/School/Programeertechnieken/opgave2/lijst.c
+hotel.h
+/home/stijn/School/Programeertechnieken/opgave2/hotel.h
+
+/home/stijn/School/Programeertechnieken/opgave2/txtdat.c
+hotel.h
+/home/stijn/School/Programeertechnieken/opgave2/hotel.h
+
+/home/stijn/School/Programeertechnieken/opgave2/zoek.c
+hotel.h
+/home/stijn/School/Programeertechnieken/opgave2/hotel.h
+
