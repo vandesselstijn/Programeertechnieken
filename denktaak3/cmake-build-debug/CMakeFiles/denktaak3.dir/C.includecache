@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/stijn/School/Programeertechnieken/denktaak3/gvar.c
+stdio.h
+-
+gvar.h
+/home/stijn/School/Programeertechnieken/denktaak3/gvar.h
+
+/home/stijn/School/Programeertechnieken/denktaak3/gvar.h
+string.h
+-
+
+/home/stijn/School/Programeertechnieken/denktaak3/svar.c
+stdio.h
+-
+math.h
+-
+gvar.h
+/home/stijn/School/Programeertechnieken/denktaak3/gvar.h
+
