@@ -6,7 +6,6 @@ int alloc(int mem[],int gevraagd)
 	int beschikbaar = 1;
 	int tempmem = 0;
 	int prevmem = 0;
-	int nextmem = 0;
 	int i;
 
 	printf("alloc\n");
@@ -65,6 +64,6 @@ int alloc(int mem[],int gevraagd)
 			beschikbaar = 0;
 			printf("Niet genoeg plaats\n");
 		}
-	}  // ik ben stijn, en ik kan niet uitloggen
+	}
 	return 0;
 }
