@@ -64,14 +64,14 @@ int dealloc(int mem[],int waar, int gevraagd)
 		mem[prevmem] = 0xffff0000 & (waar << 16) | 0x0000ffff & mem[prevmem];
 		return 0;
 	}
-	
-	
-	else if(waar == prevmem + gevraagd)//aasluitende blokken(na een bestaande)
+
+
+    else if(waar == prevmem + (mem[prevmem] & 0x0000ffff))//aasluitende blokken(na een bestaande)
 	{
 		printf("Aaneensluitende blokken na elkaar\n");
 		for(i=waar;i < waar+gevraagd; i++)
 		{
-			mem[i] = TOTAAL; 
+			mem[i] = TOTAAL;
 		}
 		mem[prevmem] = mem[prevmem] + gevraagd;
 	}

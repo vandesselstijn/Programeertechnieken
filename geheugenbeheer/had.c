@@ -1,7 +1,12 @@
 /*
  * had.c : allocatie en deallocatie algoritme
+ *
+ * Aangepast door Dries Kennes:
+ * starten met 1 argument (een filename) voor automatische test!
+ *
  */
 #include <stdio.h>
+#include <stdlib.h>
 #include "had.h"
 
 int main(int argc, char *argv[])
@@ -11,8 +16,12 @@ int main(int argc, char *argv[])
 	char	str[LEN] ;
 	char	*ptr ;
 
-	while ( gets(str) != NULL )
+    FILE* inp = stdin;
+    if (argc > 0) inp = fopen(argv[1], "r");
+
+	while ( fgets(str, LEN, inp) != NULL )
 	{
+        printf("Input: %s\n", str);
 		switch(str[0])
 		{
 		case 'a' :
